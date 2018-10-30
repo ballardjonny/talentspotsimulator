@@ -19,6 +19,7 @@ body {
   vertical-align: top;
   margin-top: 10%;
   margin-left: 10%;
+  width: 30%;
 }
 
 .talentspot {
@@ -44,14 +45,16 @@ body {
   width: 100%;
 }
 
-.header h2 {
+.header .tstitle {
   font-family: sans-serif;
   font-size: 17px;
   color: #FFFFFF;
   letter-spacing: -0.41px;
   line-height: 22px;
+  font-weight: bold;
   padding-left: 16px;
   padding-right: 16px;
+  padding-bottom: 16px;
 }
 
 .recruiter {
