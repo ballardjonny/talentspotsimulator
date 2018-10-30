@@ -58,15 +58,39 @@ body {
   padding-top: 8px;
 }
 
-.recruiter {
+.recruiter-container {
   margin-top: 16px;
   margin-left: 16px;
 }
 
-.recruiter img {
+.recruiter-container img {
   width: 32px;
   height: 32px;
   border-radius: 32px;
+  vertical-align: top;
+  margin-top: 4px;
+}
+
+.recruiter-details {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+#recruiternameoutput {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.company {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin: 0;
+}
+#companynameoutput {
+  color: #ff8400;
+  font-weight: bold;
 }
 
 .recruiter .name {
