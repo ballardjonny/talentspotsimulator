@@ -85,7 +85,7 @@ body {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   min-height: 130px;
-  width: calc(320px - 32px);
+  width: 320px;
   background-color: #181818;
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@ body {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  width: calc(320px - 32px);
+  width: 320px;
   background-color: #181818;
   display: flex;
   flex-direction: column;
