@@ -31,6 +31,11 @@ $(document).ready(function(){
         $('#spotdateoutput').text(txtBoxVal);   //assigns value to your div
     });
 
+    $('#spotlocation').keyup(function(){   //triggers when keyup in textbox
+         var txtBoxVal =$(this).val();
+        $('#spotlocationoutput').text(txtBoxVal);   //assigns value to your div
+    });
+
     $('#rsvpdeadline').keyup(function(){   //triggers when keyup in textbox
          var txtBoxVal =$(this).val();
         $('#rsvpdeadlineoutput').text(txtBoxVal);   //assigns value to your div

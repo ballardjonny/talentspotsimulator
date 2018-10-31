@@ -149,6 +149,17 @@ body {
   margin:8px 0;
 }
 
+.jobcard {
+  margin-top: 8px;
+  min-height: 130px;
+  width: 375px;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+
 .RSVP {
   background: #424242;
   height: 100px;
