@@ -14,6 +14,10 @@ body {
   margin-left: 2em;
 }
 
+.screen {
+  background-color: #262626;
+}
+
 .dataentry {
   display: inline-block;
   vertical-align: top;
