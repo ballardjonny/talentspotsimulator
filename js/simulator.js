@@ -1,61 +1,46 @@
 $(document).ready(function(){
-
-   // jQuery methods go here...
-    $('#titleinput').keyup(function(){   //triggers when keyup in textbox
+    $('#titleinput').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#output1').text(txtBoxVal);   //assigns value to your div
+        $('#output1').text(txtBoxVal);
     });
-
-    $('#recruitername').keyup(function(){   //triggers when keyup in textbox
+    $('#recruitername').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#recruiternameoutput').text(txtBoxVal);   //assigns value to your div
+        $('#recruiternameoutput').text(txtBoxVal);
     });
-
-    $('#companyname').keyup(function(){   //triggers when keyup in textbox
+    $('#companyname').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#companynameoutput').text(txtBoxVal);   //assigns value to your div
+        $('#companynameoutput').text(txtBoxVal);
     });
-
-    $('#messageinput').keyup(function(){   //triggers when keyup in textbox
+    $('#messageinput').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#messageoutput').text(txtBoxVal);   //assigns value to your div
+        $('#messageoutput').text(txtBoxVal);
     });
-
-    $('#spotdate').keyup(function(){   //triggers when keyup in textbox
+    $('#spotdate').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#spotdateoutput').text(txtBoxVal);   //assigns value to your div
+        $('#spotdateoutput').text(txtBoxVal);
     });
-
-    $('#spotlocation').keyup(function(){   //triggers when keyup in textbox
+    $('#spotlocation').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#spotlocationoutput').text(txtBoxVal);   //assigns value to your div
+        $('#spotlocationoutput').text(txtBoxVal);
     });
-
-    $('#rsvpdeadline').keyup(function(){   //triggers when keyup in textbox
+    $('#rsvpdeadline').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#rsvpdeadlineoutput').text(txtBoxVal);   //assigns value to your div
+        $('#rsvpdeadlineoutput').text(txtBoxVal);
     });
-
-
-
-    $('#jcrole').keyup(function(){   //triggers when keyup in textbox
+    $('#jcrole').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#jcroleoutput').text(txtBoxVal);   //assigns value to your div
+        $('#jcroleoutput').text(txtBoxVal);
     });
-    $('#jcsalary').keyup(function(){   //triggers when keyup in textbox
+    $('#jcsalary').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#jcsalaryoutput').text(txtBoxVal);   //assigns value to your div
+        $('#jcsalaryoutput').text(txtBoxVal);
     });
-    $('#jclocation').keyup(function(){   //triggers when keyup in textbox
+    $('#jclocation').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#jclocationoutput').text(txtBoxVal);   //assigns value to your div
+        $('#jclocationoutput').text(txtBoxVal);
     });
-
-    $('#pushnotification').keyup(function(){   //triggers when keyup in textbox
+    $('#pushnotification').keyup(function(){
          var txtBoxVal =$(this).val();
-        $('#pushnotificationoutput').text(txtBoxVal);   //assigns value to your div
+        $('#pushnotificationoutput').text(txtBoxVal);
     });
-
-
-
 });
