@@ -6,11 +6,6 @@ $(document).ready(function(){
         $('#output1').text(txtBoxVal);   //assigns value to your div
     });
 
-    $('#recruiterimage').keyup(function(){   //triggers when keyup in textbox
-         var txtBoxVal =$(this).val();
-        $('#recruiterimageoutput').text(txtBoxVal);   //assigns value to your div
-    });
-
     $('#recruitername').keyup(function(){   //triggers when keyup in textbox
          var txtBoxVal =$(this).val();
         $('#recruiternameoutput').text(txtBoxVal);   //assigns value to your div
@@ -40,5 +35,21 @@ $(document).ready(function(){
          var txtBoxVal =$(this).val();
         $('#rsvpdeadlineoutput').text(txtBoxVal);   //assigns value to your div
     });
+
+
+
+    $('#jcrole').keyup(function(){   //triggers when keyup in textbox
+         var txtBoxVal =$(this).val();
+        $('#jcroleoutput').text(txtBoxVal);   //assigns value to your div
+    });
+    $('#jcsalary').keyup(function(){   //triggers when keyup in textbox
+         var txtBoxVal =$(this).val();
+        $('#jcsalaryoutput').text(txtBoxVal);   //assigns value to your div
+    });
+    $('#jclocation').keyup(function(){   //triggers when keyup in textbox
+         var txtBoxVal =$(this).val();
+        $('#jclocationoutput').text(txtBoxVal);   //assigns value to your div
+    });
+
 
 });
