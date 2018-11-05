@@ -16,25 +16,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html">Fast Track<span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="event.html">Event</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="oneonone.html">One-on-one</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="invitationtoapply.html">ITA</a>
-    </li>
-  </ul>
-</div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Fast Track<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="event.html">Event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="oneonone.html">One-on-one</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="invitationtoapply.html">ITA</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  <div class="container">
-    <div class="marvel-device iphone-x">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="marvel-device iphone-x">
       <div class="notch">
         <div class="camera"></div>
         <div class="speaker"></div>
@@ -85,7 +87,9 @@
         </div>
       </div>
     </div>
-    <div class="dataentry">
+      </div>
+      <div class="col-6">
+        <div class="dataentry">
       Talent Spot title:
       <input type="text" class="form-control" name="titleinput" placeholder="You’ve been Fast Tracked to interview!" id="titleinput"><br>
       Recruiter name:
@@ -100,7 +104,47 @@
       <input type="textarea" class="form-control" name="rsvpdeadline" placeholder="Mon 26/11/2018" id="rsvpdeadline"><br>
 
     </div>
+      </div>
+    </div>
   </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6 mx-auto">
+        <div class="marvel-device iphone-x">
+          <div class="notch">
+            <div class="camera"></div>
+            <div class="speaker"></div>
+          </div>
+          <div class="top-bar"></div>
+          <div class="sleep"></div>
+          <div class="bottom-bar"></div>
+          <div class="volume"></div>
+          <div class="overflow">
+            <div class="shadow shadow--tr"></div>
+            <div class="shadow shadow--tl"></div>
+            <div class="shadow shadow--br"></div>
+            <div class="shadow shadow--bl"></div>
+          </div>
+          <div class="inner-shadow"></div>
+          <div class="screen">
+            <img class="iphonebackground" src="assets/iphonebackground.png">
+            <img class="pushnotification" src="assets/PN.png">
+            <p class="pntext" id="pushnotificationoutput">Congratulations, you’ve been fast tracked by Jonny at Debut</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="dataentry">
+          <p>Congratulations, you’ve been fast tracked by <i>[employer name]</i> at <i>[company name]</i></p>
+          Push Notification:
+          <textarea type="text" class="form-control" name="titleinput" placeholder="Congratulations, you’ve been fast tracked by [employer name] at [company name]" id="pushnotification"></textarea>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/simulator.js"></script>
 </body>
 </html>

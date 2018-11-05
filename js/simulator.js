@@ -51,5 +51,11 @@ $(document).ready(function(){
         $('#jclocationoutput').text(txtBoxVal);   //assigns value to your div
     });
 
+    $('#pushnotification').keyup(function(){   //triggers when keyup in textbox
+         var txtBoxVal =$(this).val();
+        $('#pushnotificationoutput').text(txtBoxVal);   //assigns value to your div
+    });
+
+
 
 });

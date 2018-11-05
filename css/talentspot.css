@@ -9,21 +9,13 @@ body {
 }
 
 .marvel-device {
-  display: inline-block;
-  margin-top: 2em;
-  margin-left: 2em;
+}
+.device-mockup {
+  text-align: center;
 }
 
 .screen {
   background-color: #262626;
-}
-
-.dataentry {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 10%;
-  margin-left: 10%;
-  width: 30%;
 }
 
 .talentspot {
@@ -229,4 +221,29 @@ body {
   font-weight: bold;
   padding: 12px;
   font-size: 14px;
+}
+
+.iphonebackground {
+  width: 100%;
+}
+.pushnotification {
+  position: absolute;
+  top: 249px;
+  right: 8px;
+  width: 359px;
+  margin: auto;
+  z-index: 10;
+}
+.pntext{
+  position: absolute;
+  top: 307px;
+  right: 20px;
+  z-index: 11;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+  color: #000000;
+  width: 335px;
+  text-align: left;
 }

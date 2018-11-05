@@ -33,8 +33,10 @@
 </div>
   </nav>
 
-  <div class="container">
-    <div class="marvel-device iphone-x">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="marvel-device iphone-x">
       <div class="notch">
         <div class="camera"></div>
         <div class="speaker"></div>
@@ -85,7 +87,9 @@
         </div>
       </div>
     </div>
-    <div class="dataentry">
+      </div>
+      <div class="col-6">
+        <div class="dataentry">
       Talent Spot title:
       <input type="text" class="form-control" name="titleinput" placeholder="We would like to speak to you!" id="titleinput"><br>
       Recruiter name:
@@ -99,6 +103,47 @@
       RSVP deadline:
       <input type="textarea" class="form-control" name="rsvpdeadline" placeholder="Mon 26/11/2018" id="rsvpdeadline"><br>
 
+    </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="marvel-device iphone-x">
+      <div class="notch">
+        <div class="camera"></div>
+        <div class="speaker"></div>
+      </div>
+      <div class="top-bar"></div>
+      <div class="sleep"></div>
+      <div class="bottom-bar"></div>
+      <div class="volume"></div>
+      <div class="overflow">
+        <div class="shadow shadow--tr"></div>
+        <div class="shadow shadow--tl"></div>
+        <div class="shadow shadow--br"></div>
+        <div class="shadow shadow--bl"></div>
+      </div>
+      <div class="inner-shadow"></div>
+      <div class="screen">
+        <img class="iphonebackground" src="assets/iphonebackground.png">
+        <img class="pushnotification" src="assets/PN.png">
+        <p class="pntext" id="pushnotificationoutput">You've impressed Debut and they would like to speak to you!</p>
+
+      </div>
+    </div>
+      </div>
+      <div class="col-6">
+        <div class="dataentry">
+      Default: You've impressed {COMPANY_NAME} and they would like to speak to you!
+      <br>
+      <br>
+      Push Notification:
+      <textarea type="text" class="form-control" name="titleinput" placeholder="You've impressed {COMPANY_NAME} and they would like to speak to you!" id="pushnotification"></textarea><br>
+    </div>
+      </div>
     </div>
   </div>
   <script src="js/simulator.js"></script>
