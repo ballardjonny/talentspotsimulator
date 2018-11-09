@@ -43,4 +43,16 @@ $(document).ready(function(){
          var txtBoxVal =$(this).val();
         $('#pushnotificationoutput').text(txtBoxVal);
     });
+    $('input[name=rsvp_type]').on('change', function(){
+   var n = $(this).val();
+   switch(n)
+   {
+           case '1':
+                 $('#show').html("ACCEPT");
+                 break;
+           case '2':
+                 $('#show').html("I'M INTERESTED");
+                 break;
+       }
+   });
 });
