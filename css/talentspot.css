@@ -8,9 +8,6 @@ body {
   height: 100%;
 }
 
-.marvel-device {
-}
-
 .device-mockup {
   text-align: center;
 }
@@ -181,8 +178,6 @@ body {
   margin-bottom: 0;
 }
 
-
-
 .RSVP {
   background: #424242;
   height: 100px;
@@ -227,6 +222,7 @@ body {
 .iphonebackground {
   width: 100%;
 }
+
 .pushnotification {
   position: absolute;
   top: 249px;
@@ -235,6 +231,7 @@ body {
   margin: auto;
   z-index: 10;
 }
+
 .pntext{
   position: absolute;
   top: 307px;
